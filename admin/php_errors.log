@@ -1,0 +1,64 @@
+[06-Oct-2021 12:01:57 Asia/Dhaka] PHP Notice:  A session had already been started - ignoring session_start() in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php on line 6
+[06-Oct-2021 12:01:57 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php:34
+Stack trace:
+#0 C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php on line 34
+[06-Oct-2021 12:03:30 Asia/Dhaka] PHP Notice:  A session had already been started - ignoring session_start() in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php on line 6
+[06-Oct-2021 12:03:30 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php:36
+Stack trace:
+#0 C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php on line 36
+[06-Oct-2021 12:05:18 Asia/Dhaka] PHP Notice:  A session had already been started - ignoring session_start() in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php on line 6
+[06-Oct-2021 12:18:12 Asia/Dhaka] PHP Notice:  A session had already been started - ignoring session_start() in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php on line 6
+[06-Oct-2021 12:18:12 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'news_deletion_time' at row 1 in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php:52
+Stack trace:
+#0 C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php on line 52
+[06-Oct-2021 12:20:04 Asia/Dhaka] PHP Notice:  A session had already been started - ignoring session_start() in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php on line 6
+[06-Oct-2021 12:20:09 Asia/Dhaka] PHP Notice:  A session had already been started - ignoring session_start() in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php on line 6
+[06-Oct-2021 12:20:13 Asia/Dhaka] PHP Notice:  A session had already been started - ignoring session_start() in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php on line 6
+[06-Oct-2021 12:23:56 Asia/Dhaka] PHP Notice:  A session had already been started - ignoring session_start() in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php on line 6
+[06-Oct-2021 12:33:26 Asia/Dhaka] PHP Notice:  A session had already been started - ignoring session_start() in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php on line 6
+[06-Oct-2021 12:33:30 Asia/Dhaka] PHP Notice:  A session had already been started - ignoring session_start() in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php on line 6
+[06-Oct-2021 12:33:35 Asia/Dhaka] PHP Notice:  A session had already been started - ignoring session_start() in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php on line 6
+[06-Oct-2021 13:31:18 Asia/Dhaka] PHP Notice:  Only variables should be passed by reference in C:\Bitnami\wampstack\apache2\htdocs\news\admin\create_post.php on line 27
+[06-Oct-2021 13:31:18 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'news_sms' at row 1 in C:\Bitnami\wampstack\apache2\htdocs\news\admin\create_post.php:77
+Stack trace:
+#0 C:\Bitnami\wampstack\apache2\htdocs\news\admin\create_post.php(77): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\Bitnami\wampstack\apache2\htdocs\news\admin\create_post.php on line 77
+[06-Oct-2021 13:32:03 Asia/Dhaka] PHP Notice:  Only variables should be passed by reference in C:\Bitnami\wampstack\apache2\htdocs\news\admin\create_post.php on line 27
+[07-Oct-2021 14:19:02 Asia/Dhaka] PHP Notice:  Undefined index: lastlogin in C:\Bitnami\wampstack\apache2\htdocs\news\admin\header.php on line 5
+[08-Oct-2021 21:44:05 Asia/Dhaka] PHP Notice:  Only variables should be passed by reference in C:\Bitnami\wampstack\apache2\htdocs\news\admin\create_post.php on line 27
+[20-Oct-2021 11:59:19 Asia/Dhaka] PHP Notice:  Only variables should be passed by reference in C:\Bitnami\wampstack\apache2\htdocs\news\admin\edit_post.php on line 41
+[20-Oct-2021 11:59:19 Asia/Dhaka] PHP Notice:  Undefined variable: news_head_trans in C:\Bitnami\wampstack\apache2\htdocs\news\admin\edit_post.php on line 65
+[20-Oct-2021 11:59:19 Asia/Dhaka] PHP Notice:  Undefined variable: news_details_translated in C:\Bitnami\wampstack\apache2\htdocs\news\admin\edit_post.php on line 67
+[03-Nov-2021 09:57:35 Asia/Dhaka] PHP Notice:  Only variables should be passed by reference in C:\Bitnami\wampstack\apache2\htdocs\news\admin\create_post.php on line 27
+[03-Nov-2021 10:16:33 Asia/Dhaka] PHP Notice:  Only variables should be passed by reference in C:\Bitnami\wampstack\apache2\htdocs\news\admin\edit_post.php on line 41
+[03-Nov-2021 10:16:33 Asia/Dhaka] PHP Notice:  Undefined variable: news_head_trans in C:\Bitnami\wampstack\apache2\htdocs\news\admin\edit_post.php on line 65
+[03-Nov-2021 10:16:33 Asia/Dhaka] PHP Notice:  Undefined variable: news_details_translated in C:\Bitnami\wampstack\apache2\htdocs\news\admin\edit_post.php on line 67
+[03-Nov-2021 11:20:32 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '$msg' (T_VARIABLE) in C:\Bitnami\wampstack\apache2\htdocs\news\admin\index.php on line 35
+[03-Nov-2021 11:31:26 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '$pass_word' (T_VARIABLE) in C:\Bitnami\wampstack\apache2\htdocs\news\admin\check_user.php on line 25
+[03-Nov-2021 11:32:15 Asia/Dhaka] PHP Notice:  Undefined variable: post_details in C:\Bitnami\wampstack\apache2\htdocs\news\admin\check_user.php on line 25
+[03-Nov-2021 11:32:15 Asia/Dhaka] PHP Notice:  Undefined variable: post_details in C:\Bitnami\wampstack\apache2\htdocs\news\admin\check_user.php on line 26
+[03-Nov-2021 12:20:29 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in C:\Bitnami\wampstack\apache2\htdocs\news\admin\check_user.php on line 108
+[03-Nov-2021 12:20:49 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Bitnami\wampstack\apache2\htdocs\news\admin\check_user.php on line 150
+[03-Nov-2021 12:21:11 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Bitnami\wampstack\apache2\htdocs\news\admin\check_user.php on line 150
+[03-Nov-2021 12:21:40 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::error() in C:\Bitnami\wampstack\apache2\htdocs\news\admin\check_user.php:103
+Stack trace:
+#0 {main}
+  thrown in C:\Bitnami\wampstack\apache2\htdocs\news\admin\check_user.php on line 103
+[03-Nov-2021 12:22:12 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::error() in C:\Bitnami\wampstack\apache2\htdocs\news\admin\check_user.php:103
+Stack trace:
+#0 {main}
+  thrown in C:\Bitnami\wampstack\apache2\htdocs\news\admin\check_user.php on line 103
+[03-Nov-2021 12:22:23 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::error() in C:\Bitnami\wampstack\apache2\htdocs\news\admin\check_user.php:103
+Stack trace:
+#0 {main}
+  thrown in C:\Bitnami\wampstack\apache2\htdocs\news\admin\check_user.php on line 103
+[03-Nov-2021 12:23:37 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\Bitnami\wampstack\apache2\htdocs\news\admin\check_user.php on line 108
+[03-Nov-2021 12:31:50 Asia/Dhaka] PHP Notice:  Undefined index: lastlogin in C:\Bitnami\wampstack\apache2\htdocs\news\admin\header.php on line 5
+[03-Nov-2021 13:22:47 Asia/Dhaka] PHP Notice:  A session had already been started - ignoring session_start() in C:\Bitnami\wampstack\apache2\htdocs\news\admin\delete_post.php on line 6
